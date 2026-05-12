@@ -63,8 +63,8 @@ export default function App() {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-eden-darker/95 backdrop-blur-md py-4 border-b border-white/10' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-eden-red rounded-sm flex items-center justify-center font-black text-black italic">E</div>
-            <span className="font-sans text-xl tracking-tighter uppercase font-black">Eden<span className="text-eden-red">Fit</span></span>
+            <div className="w-8 h-8 bg-eden-red rounded-sm flex items-center justify-center font-black text-black italic">H</div>
+            <span className="font-sans text-xl tracking-tighter uppercase font-black">Hyper <span className="text-eden-red">The Gym</span></span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-[10px] font-bold uppercase tracking-widest text-zinc-400">
             <a href="#transform" className="hover:text-eden-red transition-colors">Results</a>
@@ -171,7 +171,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* 3. WHY CHOOSE EDEN FITNESS */}
+      {/* 3. WHY CHOOSE HYPER THE GYM */}
       <section className="py-24 bg-eden-darker relative border-y border-white/5 z-10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -535,8 +535,8 @@ export default function App() {
          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 bg-eden-red rounded-sm flex items-center justify-center font-black text-black italic">E</div>
-                <span className="font-sans text-xl tracking-tighter uppercase text-white font-black">Eden<span className="text-eden-red">Fit</span></span>
+                <div className="w-8 h-8 bg-eden-red rounded-sm flex items-center justify-center font-black text-black italic">H</div>
+                <span className="font-sans text-xl tracking-tighter uppercase text-white font-black">Hyper <span className="text-eden-red">The Gym</span></span>
               </div>
               <p className="text-white/40 text-xs mb-6 font-medium leading-relaxed">Premium strength and conditioning facility designed for people who actually want results.</p>
               <div className="flex gap-4">
@@ -561,7 +561,7 @@ export default function App() {
               <ul className="space-y-4 text-white/40 text-[10px] font-bold uppercase tracking-widest">
                 <li className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-eden-red shrink-0" />
-                  <span>100 Iron Forge Way<br/>Austin, TX 78701</span>
+                  <span>Building No. 4, Mahatma Hansraj Marg,<br/>above IndusInd Bank, Block A, Lok Vihar,<br/>Pitampura, Delhi, 110034</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-eden-red shrink-0" />
@@ -569,7 +569,7 @@ export default function App() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-eden-red shrink-0" />
-                  <span>join@edenfit.com</span>
+                  <span>join@hyperthegym.com</span>
                 </li>
               </ul>
             </div>
@@ -585,7 +585,7 @@ export default function App() {
          </div>
          
          <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-bold tracking-widest uppercase">
-            <p className="text-white/20">&copy; {new Date().getFullYear()} Eden Fitness Gym. All rights reserved.</p>
+            <p className="text-white/20">&copy; {new Date().getFullYear()} Hyper The Gym. All rights reserved.</p>
             <div className="flex gap-6 text-white/20">
                <a href="#" className="hover:text-white transition-colors">Privacy</a>
                <a href="#" className="hover:text-white transition-colors">Terms</a>
